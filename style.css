@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  
+}
+body{
+    background:url(https://e1.pxfuel.com/desktop-wallpaper/248/45/desktop-wallpaper-8-windows-10-windows-10-full-screen.jpg);
+    background-size: cover;
+    background-attachment: fixed;  
+    color:#fff;
+    background-color: rgda(57,129,250,0.2);
+    font-size: 1.1em;
+    font-family:  'poppins',serif;
+}
+.heading{
+    text-align: center;
+    width:100%;
+    margin:auto;
+    margin-top: 100px;
+}
+#head{
+    font-size: 1.8cm;
+}
+#subheading{
+    font-size:18px;
+    margin-top:10px;
+}
+#content1{
+    width:90%;
+  margin:auto;
+}
+form{
+    background-color: rgb(0,0,0,0.7);
+    padding-top:34px;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top:10px;
+    padding-bottom: 60px;
+}
+form.box{
+    width:98.5%;
+    height:2.8em;
+    position:relative;
+    bottom:10px;
+    border:0;
+    border-radius:5px;
+}
+#option1 select{
+    width:98.5%;
+    height:2.7em;
+    position:relative;
+    bottom:10px;
+    border-radius: 5px;
+    border:0;
+    
+}
+#option2 select{
+    width:98.5%;
+    height:2.5em;
+    position:relative;
+    border-radius:5px;
+    border:0;
+}
+
+#content2{
+    margin:10px;
+}
+#content2 textarea{
+    width: 98.5%;
+    height: 125px;
+    position:relative;
+    bottom:17px;
+}
+button{
+    width:98.5%;
+    height:3em;
+    position:relative;
+    top:15px;
+   background-color: rgb(19, 208, 76);
+    border:none;
+    color:rgb(255,255,2555);
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+textarea::placeholder{
+    font-size: 1em;
+    position: relative;
+    top:8px;
+    left:15px;
+    width:70%;
+}
+input::placeholder{
+    font-size: 1em;
+    position:relative;
+    left:10px;
+    width:50%;
+    font-weight:400;
+    
+
+}
+input.larger{
+    width:20px;
+    height:20px;
+}
+#head2{
+  width:90%;
+  margin:auto;
+}
+#head1{
+    width:90%;
+    margin:auto;
+}
+@media screen and(max-width:600px){
+    form{
+        width:100%;
+        margin:auto;
+    }
+}
